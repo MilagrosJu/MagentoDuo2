@@ -11,11 +11,6 @@ public class Locators {
     //Banner principal
     public static final By bannerButton = By.xpath("/html/body/div[3]/section/swiper-container/swiper-slide/div/div/div[1]/div/div[1]/a");
 
-    //Acordeon Planes
-    public static final By IntVerBenef1 = By.xpath("/html/body/div[3]/section/div[2]/swiper-container/swiper-slide[1]/div/div[5]");
-    public static final By IntVerBenef2 = By.xpath("/html/body/div[3]/section/div[2]/swiper-container/swiper-slide[2]/div/div[5]");
-    public static final By IntVerBenef3 = By.xpath("/html/body/div[3]/section/div[2]/swiper-container/swiper-slide[3]/div/div[4]");
-
     //Planes De Internet
     public static final By SubmitButton = By.xpath("/html/body/div[3]/section/div[2]/swiper-container/swiper-slide[1]/div/div[3]/a");
 

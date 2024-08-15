@@ -14,19 +14,16 @@ public class ExcuteTest {
         webSite = new WebSite(driver);
 
         // Variables Standaroup
-        String url = "https://tiendaonline.movistar.com.pe/ofertas/servicioshogar/magento-mono2";
+        String url = "https://tiendaonline.movistar.com.pe/ofertas/servicioshogar/magento-duo2";
         String celular = "999999999";
 
         webSite.navigateToWebsite(url);
         //Banner Principal
-        webSite.visitBanner("https://tienda.movistar.com.pe/solicitud/checkout/cobertura?service=78164161300FTTH&ref_origin=LC_MAGENTOMONO2_SOLOINTERNET_PARRILLA_300MBPS_HOGAR", "TIENDA MOVISTAR INTERNET 79.9");
+        webSite.visitBanner("https://tienda.movistar.com.pe/solicitud/checkout/cobertura?service=76122261300FTTH&ref_origin=LC-LANDINGMAGENTO-DUO2_INTERNETTV_PARRILLA_300MBPS_HOGAR", "TIENDA MOVISTAR DÚO TV 99.9");
         webSite.scrollByPixels(Locators.scrollAmount);
-        webSite.scrollByPixels(Locators.scroll1Amount);
 
         //Parrilla de Planes
-        webSite.Acordeon();
-        webSite.validarParrilla("https://tienda.movistar.com.pe/solicitud/checkout/cobertura?service=78164161300FTTH&ref_origin=LC_MAGENTOMONO2_SOLOINTERNET_PARRILLA_300MBPS_HOGAR", "TIENDA MOVISTAR");
-        webSite.Acordeon();
+        webSite.validarParrilla("https://tienda.movistar.com.pe/solicitud/checkout/cobertura?service=76122261300FTTH&ref_origin=LC-LANDINGMAGENTO-DUO2_INTERNETTV_PARRILLA_300MBPS_HOGAR", "TIENDA MOVISTAR DÚO");
         webSite.scrollByPixels(Locators.scroll2Amount);
         webSite.scrollByPixels(Locators.scrollAmount);
 

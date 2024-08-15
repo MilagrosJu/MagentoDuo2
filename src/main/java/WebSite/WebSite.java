@@ -58,15 +58,6 @@ public class WebSite {
             }
         }
     }
-    //Acordeon
-    public void Acordeon() throws InterruptedException {
-        driver.findElement(Locators.IntVerBenef1).click();
-        Thread.sleep(1000);
-        driver.findElement(Locators.IntVerBenef2).click();
-        Thread.sleep(1000);
-        driver.findElement(Locators.IntVerBenef3).click();
-        Thread.sleep(1000);
-    }
     //Parrilla
     public void validarParrilla(String urlEsperada, String nombreSeccion) throws InterruptedException {
         String handlePaginaActual = driver.getWindowHandle();

@@ -51,9 +51,9 @@
     "Application.ExcuteTest.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Milagros",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/msoria/IdeaProjects/MagentoMono2",
+    "last_opened_file_path": "C:/Users/msoria/IdeaProjects/MagentoDuo2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -115,6 +115,7 @@
       <workItem from="1723127850457" duration="6603000" />
       <workItem from="1723145661856" duration="355000" />
       <workItem from="1723154013560" duration="3636000" />
+      <workItem from="1723760169524" duration="1803000" />
     </task>
     <servers />
   </component>
